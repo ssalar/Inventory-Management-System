@@ -1,4 +1,5 @@
 import './App.css';
+import Info from "./info.js"
 
 function App() {
   return (
@@ -11,16 +12,6 @@ function App() {
   );
 }
 
-function Info(){
-  const title = "This is my title."
-  return (
-    <div>
-      {title}
-      <h1>Inventory System</h1>
-      <p>Manage Your stuff.</p>
-    </div>
-  );
-}
 
 function AddItem(){
   return (
